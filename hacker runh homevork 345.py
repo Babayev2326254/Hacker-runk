@@ -9,17 +9,22 @@ if  n//2 == float(n/2) :
         print("Not Weird")
 else :
     print("Weird")
+
+
 #https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true
 n = int(input())
 if 1<= n <= 20 :
     for i in range(0,n):
         i =i**2
         print(i)
+
+
 #https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true
 a = int(input())
 b = int(input())
 print(str(a//b))
 print(str(a/b))
+
 
 
 #https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true
