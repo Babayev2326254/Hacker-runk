@@ -34,3 +34,9 @@ if 1 <= n <= 150:
         print(a,end='')
 else:
     print(n)
+
+#https://www.hackerrank.com/challenges/py-set-add/problem?isFullScreen=true
+set1 = set()
+for _ in range(int(input())):
+    set1.add(input())
+print(len(set1))
