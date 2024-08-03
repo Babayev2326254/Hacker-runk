@@ -40,3 +40,24 @@ set1 = set()
 for _ in range(int(input())):
     set1.add(input())
 print(len(set1))
+
+
+
+
+
+#https://www.hackerrank.com/challenges/py-introduction-to-sets/problem?isFullScreen=true
+def average(array):
+    0 < n <=100
+    array = set(array)
+    return sum(array)/len(array)
+    
+    # your code goes here
+    
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
+
+
+
